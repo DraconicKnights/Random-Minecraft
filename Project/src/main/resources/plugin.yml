@@ -1,0 +1,21 @@
+name: ProjectEnd
+version: '${project.version}'
+main: projectend.projectend.ProjectEnd
+api-version: 1.19
+commands:
+  random:
+    usage: /random
+    aliases: /random
+    description: runs a random command which will return a random event
+  debug:
+    usage: /debug
+    aliases: /debug
+    description: debug command for debugging
+  badum:
+    usage: /mira
+    aliases: /mira
+    description: Look there's no logic to this thing...
+  custommob:
+    usage: /custommob
+    aliases: /custom
+    description: Spawns custom mob
