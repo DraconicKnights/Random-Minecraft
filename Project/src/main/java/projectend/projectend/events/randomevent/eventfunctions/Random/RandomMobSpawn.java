@@ -14,7 +14,7 @@ public class RandomMobSpawn {
         int randomnum = 0;
 
         for (int counter = 1; counter <= 1; counter++) {
-            randomnum = num.nextInt(10);
+            randomnum = num.nextInt(20);
         }
 
         switch (randomnum) {
@@ -39,7 +39,13 @@ public class RandomMobSpawn {
             case 8:
                 amount = RandomNumGen.RandomMobAmountNum();
                 for (int i = 0; i < amount; i++) {
-                    player.getWorld().spawn(player.getLocation(), Enderman.class);
+                    player.getWorld().spawn(player.getLocation(), Pillager.class);
+                }
+                break;
+            case 10:
+                amount = RandomNumGen.RandomMobAmountNum();
+                for (int i = 0; i < amount; i++) {
+                    player.getWorld().spawn(player.getLocation(), Vindicator.class);
                 }
                 break;
         }

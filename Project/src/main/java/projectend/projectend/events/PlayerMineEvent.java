@@ -6,9 +6,9 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockPlaceEvent;
 import projectend.projectend.events.randomevent.Arrays.DebugList;
-import projectend.projectend.events.randomevent.eventfunctions.CustomMobEvent.CustomSkeletonKing;
-import projectend.projectend.events.randomevent.eventfunctions.CustomMobEvent.CustomForgottenSoldier;
-import projectend.projectend.events.randomevent.eventfunctions.CustomMobEvent.CustomZombieScout;
+import projectend.projectend.events.randomevent.eventfunctions.CustomMobEvent.SkeletonKing.CustomSkeletonKing;
+import projectend.projectend.events.randomevent.eventfunctions.CustomMobEvent.Forgotten.CustomForgottenSoldier;
+import projectend.projectend.events.randomevent.eventfunctions.CustomMobEvent.ZombieScout.CustomZombieScout;
 import projectend.projectend.events.randomevent.eventfunctions.CustomMobScare.ZombieEntitySpawn;
 import projectend.projectend.utils.ColourCode;
 

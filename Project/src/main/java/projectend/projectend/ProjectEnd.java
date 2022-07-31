@@ -6,12 +6,13 @@ import projectend.projectend.commands.badum;
 import projectend.projectend.commands.debug;
 import projectend.projectend.commands.random;
 import projectend.projectend.events.PlayerMineEvent;
-import projectend.projectend.events.randomevent.eventfunctions.CustomMobEvent.CustomSkeletonKing;
+import projectend.projectend.events.randomevent.eventfunctions.CustomMobEvent.SkeletonKing.CustomSkeletonKing;
 import projectend.projectend.events.randomevent.customspawn.CustomSpiderSpawn;
 import projectend.projectend.events.randomevent.PlayerRandomEvent;
-import projectend.projectend.events.randomevent.eventfunctions.CustomMobEvent.CustomForgottenSoldier;
-import projectend.projectend.events.randomevent.eventfunctions.CustomMobEvent.CustomZombieScout;
+import projectend.projectend.events.randomevent.eventfunctions.CustomMobEvent.Forgotten.CustomForgottenSoldier;
+import projectend.projectend.events.randomevent.eventfunctions.CustomMobEvent.ZombieScout.CustomZombieScout;
 import projectend.projectend.events.randomevent.eventfunctions.CustomMobScare.ZombieEntitySpawn;
+import projectend.projectend.events.randomevent.eventfunctions.Dragon.DragonRework;
 
 public final class ProjectEnd extends JavaPlugin {
 
@@ -42,6 +43,10 @@ public final class ProjectEnd extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new CustomZombieScout(this), this);
 
         getServer().getPluginManager().registerEvents(new CustomForgottenSoldier(this), this);
+
+        //Dragon
+
+        getServer().getPluginManager().registerEvents(new DragonRework(this), this);
 
         getCommand("random").setExecutor(new random());
         getCommand("debug").setExecutor(new debug());

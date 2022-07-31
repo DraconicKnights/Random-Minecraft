@@ -4,18 +4,18 @@ main: projectend.projectend.ProjectEnd
 api-version: 1.19
 commands:
   random:
-    usage: /random
+    usage: /<command>
     aliases: /random
     description: runs a random command which will return a random event
   debug:
-    usage: /debug
+    usage: /<command>
     aliases: /debug
     description: debug command for debugging
   badum:
-    usage: /mira
+    usage: /<command>
     aliases: /mira
     description: Look there's no logic to this thing...
   custommob:
-    usage: /custommob
+    usage: /<command>
     aliases: /custom
     description: Spawns custom mob

@@ -11,7 +11,7 @@ import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 import projectend.projectend.events.randomevent.Arrays.DebugList;
 import projectend.projectend.events.randomevent.customspawn.CustomSpiderSpawn;
-import projectend.projectend.events.randomevent.eventfunctions.CustomMobEvent.CustomSkeletonKing;
+import projectend.projectend.events.randomevent.eventfunctions.CustomMobEvent.SkeletonKing.CustomSkeletonKing;
 import projectend.projectend.events.randomevent.eventfunctions.CustomMobScare.ZombieEntitySpawn;
 import projectend.projectend.events.randomevent.eventfunctions.Random.*;
 import projectend.projectend.utils.ColourCode;

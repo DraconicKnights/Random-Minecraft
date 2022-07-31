@@ -19,7 +19,7 @@ public class RandomNumGen {
         int randomnum = 0;
 
         for (int counter = 1; counter <= 1; counter++) {
-            randomnum = num.nextInt(10);
+            randomnum = num.nextInt(5);
         }
         return randomnum;
     }
